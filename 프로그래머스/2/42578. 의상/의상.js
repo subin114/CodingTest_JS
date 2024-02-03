@@ -1,5 +1,5 @@
 function solution(clothes) {
-  let map = new Array();
+  let map = [];
   let result = 1;
 
   for (let i = 0; i < clothes.length; i++) {
