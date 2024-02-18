@@ -5,7 +5,7 @@ function solution(s){
     for (let i of s) {
         if (i === "(") stack.push(i);
         else {
-            if (stack.length === 0 || stack.pop() !== "(") {
+            if (stack.pop() !== "(") {
                 return false;
             }
         }
