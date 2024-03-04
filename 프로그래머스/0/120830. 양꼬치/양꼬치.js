@@ -4,5 +4,4 @@ function solution(n, k) {
     } else {
         return (n * 12000) + (k * 2000)
     }
-    // return (n / 10 === 0) ? (n * 12000) + ((k - ( n / 10)) * 2000) : (n * 12000) + (k * 2000)
 }
