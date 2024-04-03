@@ -1,4 +1,6 @@
 function solution(money) {
+    return [Math.floor(money / 5500), money % 5500];
+    /*
     let res = [];
     
     if (money >= 5500) {
@@ -13,4 +15,5 @@ function solution(money) {
     }
     
     return res;
+    */
 }
