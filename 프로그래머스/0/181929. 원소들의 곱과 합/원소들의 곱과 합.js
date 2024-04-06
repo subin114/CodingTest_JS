@@ -1,9 +1,6 @@
-function solution(num_list) {
-    let mul = 1;
-    let sum = 0;
-    
-    num_list.forEach(n => mul *= n);
-    num_list.forEach(n => sum += n);
-    
-    return Math.pow(sum, 2) > mul ? 1 : 0;
+const solution = nums => {
+  let mul = nums.reduce((acc, i) => acc * i, 1)
+  let sum = nums.reduce((acc, i) => acc + i, 0)
+
+  return mul < Math.pow(sum, 2) ? 1 : 0
 }
