@@ -1,0 +1,1 @@
+const solution = (intStrs, k, s, l) => intStrs.map(i => Number(i.slice(s, s + l))).filter(n => n > k)
