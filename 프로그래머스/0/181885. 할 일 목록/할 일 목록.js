@@ -1,5 +1,1 @@
-function solution(todo_list, finished) {
-    return todo_list.filter((_, idx) => {
-        return !finished[idx]
-    })
-}
+const solution = (todo_list, finished) => todo_list.filter((_, i) => !finished[i])
