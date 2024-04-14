@@ -1,10 +1,6 @@
-function solution(numbers, n) {
-    let sum = 0;
-    
-    let result = numbers.reduce((sum, i) => {
-        if (sum <= n) sum += i;
-        return sum;
-    })
-    
-    return result;
+const solution = (numbers, n) => {
+    return numbers.reduce((acc, i) => {
+        if (acc <= n) acc += i
+        return acc
+    }, 0)
 }
