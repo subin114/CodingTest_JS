@@ -1,11 +1,1 @@
-function solution(num_list) {
-    let odd = '';
-    let even = '';
-    
-    for (let num of num_list) {
-        if (num % 2 === 0) even += num;
-        else odd += num;
-    }
-    
-    return parseInt(odd) + parseInt(even)
-}
+const solution = num_list => +(num_list.filter(n => n % 2 !== 0).join('')) + +(num_list.filter(n => n % 2 === 0).join(''))
