@@ -1,11 +1,2 @@
-function solution(my_string, indices) {
+const solution = (my_string, indices) => my_string.split('').filter((c, i) => !indices.includes(i)).join('')
     
-    let res = '';
-    
-    for(let i = 0; i < my_string.length; i++) {
-        if (!indices.includes(i)) res += my_string[i]
-    }
-    
-    return res
-    
-}
