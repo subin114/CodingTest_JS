@@ -1,0 +1,1 @@
+const solution = (str1, str2) => Array.from(str1).reduce((acc, c, i) => acc + c + str2[i], '')
