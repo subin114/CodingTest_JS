@@ -1,3 +1,1 @@
-function solution(my_string) {
-    return my_string.split(" ").filter(i => i !== "")
-}
+const solution = my_string => my_string.split(' ').filter(c => c)
