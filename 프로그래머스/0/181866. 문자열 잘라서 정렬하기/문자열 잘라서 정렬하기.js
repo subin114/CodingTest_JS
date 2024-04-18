@@ -1,3 +1,1 @@
-function solution(myString) {
-    return myString.split("x").sort().filter(Boolean)
-}
+const solution = myString => myString.split('x').filter(c => c).sort()
