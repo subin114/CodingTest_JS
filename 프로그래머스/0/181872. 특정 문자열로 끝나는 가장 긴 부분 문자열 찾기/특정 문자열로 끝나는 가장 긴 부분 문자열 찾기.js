@@ -1,0 +1,1 @@
+const solution = (myString, pat) => [...myString].map((_,  i) => myString.slice(0, i + 1)).filter(s => s.endsWith(pat)).reduce((acc, c) => c, '')
