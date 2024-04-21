@@ -1,0 +1,1 @@
+const solution = (spell, dic) => dic.some(s => spell.every(c => s.includes(c))) ? 1 : 2
