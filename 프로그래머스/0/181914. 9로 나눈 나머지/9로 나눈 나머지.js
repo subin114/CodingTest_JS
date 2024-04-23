@@ -1,0 +1,1 @@
+const solution = number => [...number].map(Number).reduce((acc, i) => acc + i) % 9
