@@ -1,0 +1,1 @@
+const solution = (a, d, included) => included.map((v, i) => v ? a + i * d : 0).reduce((acc, c) => acc + c, 0)
