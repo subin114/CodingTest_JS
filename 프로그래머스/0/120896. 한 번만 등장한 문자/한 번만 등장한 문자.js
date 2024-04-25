@@ -1,0 +1,1 @@
+const solution = s => [...new Set(s)].filter(c => s.indexOf(c) === s.lastIndexOf(c)).sort().join('')
